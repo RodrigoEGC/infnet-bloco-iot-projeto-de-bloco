@@ -1,7 +1,6 @@
-# Code folder for hosting code for a Data Science Project
+# Pasta "Code" hospeda o código de um projeto de ciência de dados
 
-This folder hosts all code for a data science project. It has three sub-folders, belonging to 3 stages of the Data Science Lifecycle:
-
+Esta pasta hospeda todo o código para um projeto de ciência de dados. Possui três subpastas, pertencentes a 3 estágios do ciclo de vida do Data Science:
 1. Data_Acquisition_and_Understanding
 2. Modeling
 3. Deployment
