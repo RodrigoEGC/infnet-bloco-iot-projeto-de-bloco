@@ -13,6 +13,9 @@ tests/.cache/v/cache/lastfailed
 ## R Section - See https://github.com/github/gitignore/blob/master/R.gitignore
 ##
 
+#Certificates
+/Code/DataPrep/certificates/
+
 # History files
 .Rhistory
 .Rapp.history
