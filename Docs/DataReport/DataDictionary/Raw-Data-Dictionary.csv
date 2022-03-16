@@ -1,7 +1,6 @@
-Column Index,Column Name,Type of Variable,"Values (range, levels, examples, etc)",Short Description,Joining Keys with others datasets?
-1,State,,,Utilizaremos apenas o estado de São Paulo, 
-2,City,,,Cidades do estado selecionado, 
-3,Month,,,Qual mês ocorreu a medição da temperatura, 
+Column Index,Column Name,Type of Variable,"Values (range, levels, examples, etc)",Short Description,Joining Keys with others datasets? 
+1,City,,,Utilizaremos apenas a cidade de São Paulo, 
+2,Month,,,Qual mês ocorreu a medição da temperatura, 
 3,Year,,,Ano que ocorreu a medição da temperatura,
 4,AvgTemperature,,,Média da temperatura em fahrenheit,
 
