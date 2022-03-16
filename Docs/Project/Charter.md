@@ -39,8 +39,8 @@
 * Data
   * Utilizaremos dados do CSV  (https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities)
 * Criamos scripts para envio de dados a AWS
-	*Utilizaremos python para construção e amostragem
-	*Utilização de serviços AWS
+	* Utilizaremos python para construção e amostragem
+	* Utilização de serviços AWS
 
 
 //TODO (O modelo utilizado foi …)
