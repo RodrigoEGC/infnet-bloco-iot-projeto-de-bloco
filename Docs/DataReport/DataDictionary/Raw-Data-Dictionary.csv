@@ -1,4 +1,7 @@
 Column Index,Column Name,Type of Variable,"Values (range, levels, examples, etc)",Short Description,Joining Keys with others datasets?
 1,State,,,, 
-2,,,,, 
-3,,,,, 
+2,City,,,, 
+3,Month,,,, 
+3,Year,,,,
+4,AvgTemperature
+
