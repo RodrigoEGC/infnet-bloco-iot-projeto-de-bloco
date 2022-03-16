@@ -3,5 +3,5 @@ Column Index,Column Name,Type of Variable,"Values (range, levels, examples, etc)
 2,City,,,, 
 3,Month,,,, 
 3,Year,,,,
-4,AvgTemperature
+4,AvgTemperature,,,,
 
