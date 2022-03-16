@@ -28,16 +28,16 @@
 
 
 ## Plan
-*A partir do dataset, escolhemos uma determinada cidade para análise.
-*Realizamos a limpeza destes dados eliminando valores nulos
-*convertemos os valores de farenheit para celsius.
-*Criamos scripts para enviar este novo CSV a AWS.
+* A partir do dataset, escolhemos uma determinada cidade para análise.
+* Realizamos a limpeza destes dados eliminando valores nulos
+* convertemos os valores de farenheit para celsius.
+* Criamos scripts para enviar este novo CSV a AWS.
 
 //TODO (continua ao longo do projeto)
 
 ## Architecture
 * Data
-  * Utilizaremos dados do CSV  (Daily Temperature of Major Cities)
+  * Utilizaremos dados do CSV  (https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities)
 * Criamos scripts para envio de dados a AWS
 	*Utilizaremos python para construção e amostragem
 	*Utilização de serviços AWS
