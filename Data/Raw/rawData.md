@@ -9,7 +9,7 @@
 
 | Region | Country | State | City | Month | Day | Year | AvgTemperature |
 | ---:| ---: | ---: | ---: | ---:| ---: | ---: | ---: |
-
+| Africa | Algeria | NaN | Algiers | 1 | 1 | 1995 | 64.2 |
 
 
 ## Description 
