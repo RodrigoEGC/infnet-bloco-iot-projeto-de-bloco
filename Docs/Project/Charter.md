@@ -4,7 +4,7 @@
 
 * O cliente Fernando Ferreira se encontra no ramo de meteorologia.
 
-*Nosso cliente solicita a predição de clima e assim dispara um alerta quando houver tempestades ou elevação da temperatura.
+* Nosso cliente solicita atualizaçoes sobre a predição do clima e recebe alertas quando houver previsão de eventos climaticos relevantes, como tempestades ou elevação brusca da temperatura.
 
 ## Scope
 *  Quais soluções de ciência de dados estamos tentando construir? //TODO
