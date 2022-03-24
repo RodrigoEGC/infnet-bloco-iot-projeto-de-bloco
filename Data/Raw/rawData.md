@@ -13,7 +13,8 @@
 
 
 ## Description 
-If the link to the full dataset does not apply, provide some information on how to access the full dataset. 
+- O CSV possui mais de 100GB permitidos dentro do GitHub, sendo assim está inserido no Drive com o link acima
 
-If the data stays in an Azure file storage, please provide the link to the text file with the information of the file storage that has been checked in to the git repository. 
+- O CSV possui dados de cidades ao redor do mundo, começando sua coleta em 1995 até o ano de 2020
 
+- Os dados foram coletados diariamente desde o primeiro dia de 1995 até o ultimo dia de 2020
