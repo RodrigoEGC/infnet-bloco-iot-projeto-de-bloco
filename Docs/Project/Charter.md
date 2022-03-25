@@ -1,20 +1,22 @@
-# Project Charter
+# Carta do projeto
 
-## Business background
+## Histórico de Negócios
 
 * O cliente Fernando Ferreira se encontra no ramo de meteorologia.
 
 * Nosso cliente solicita atualizaçoes sobre a predição do clima e recebe alertas quando houver previsão de eventos climaticos relevantes, como tempestades ou elevação brusca da temperatura.
 
-## Scope
-*  Quais soluções de ciência de dados estamos tentando construir? //TODO
+## Ecopo
+*  Descrever os conceito de big data, análise de dados e machine learning
+* Analisar aplicações de análise de dados
+* Especificar um sistema de predição baseado em dados
+* Implementar um sistema de predição baseado em dados obtidos a partir de sensores IoT
 
 * Trataremos os dados do dataset, para então realizar a simulação rodando na aws,treinando um modelo de aprendizado de máquina de previsão que irá detectar e acionar uma alerta.
 
-* How is it going to be consumed by the customer? //TODO
 
-## Personnel
-* Who are on this project:
+## Pessoas
+* Envolvidos no projeto:
 	* Microsoft:
 		* Cristina Andrade
 		* Rafael Reis
@@ -23,11 +25,11 @@
 		* Fernando Ferreira
 
 	
-## Metrics
-*  Prever climas futuros para assim analisarmos a possibilidade de tempestades. //TODO
+## Metricas
+* Sistema de predição do clima, onde os dados são lidos e processados na AWS para então serem teinados para exibir um alerta quando houver possibilidade de tempestades.
 
 
-## Plan
+## Plano
 * A partir do dataset, escolhemos uma determinada cidade para análise.
 * Realizamos a limpeza destes dados eliminando valores nulos
 * convertemos os valores de farenheit para celsius.
