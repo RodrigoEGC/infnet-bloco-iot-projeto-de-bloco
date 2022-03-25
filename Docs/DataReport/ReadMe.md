@@ -1,2 +1,5 @@
-# DataReport Folder
-_Location to place documents describing results of data exploration_
+# Relatório de dados
+Nele possuimos documentos como: 
+
+1. Relatório da qualidade dos dados
+2.  Dicionário de dados com informações sobre eles
