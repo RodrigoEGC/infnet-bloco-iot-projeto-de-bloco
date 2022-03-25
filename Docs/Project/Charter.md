@@ -37,13 +37,14 @@
 
 //TODO (continua ao longo do projeto)
 
-## Architecture
-* Data
+## Arquitetura
+
   * Utilizaremos dados do CSV  (https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities)
 * Criamos scripts para envio de dados a AWS
 	* Utilizaremos python para construção e amostragem
 	* Utilização de serviços AWS
 	* O medelo utilizado foi Prophet
+	* //TODO
 
 
 
