@@ -1,6 +1,7 @@
-# Pasta "Code" hospeda o código de um projeto de ciência de dados
+# Códigos do Projeto
 
-Esta pasta hospeda todo o código para um projeto de ciência de dados. Possui três subpastas, pertencentes a 3 estágios do ciclo de vida do Data Science:
-1. Data_Acquisition_and_Understanding
-2. Modeling
-3. Deployment
+Aqui temos todo código realizado no projeto, obtendo os 3 estágios do ciclo de vida do Data Science:
+
+1. Preparação dos dados
+2. Modelagem
+3. Envio dos dados
