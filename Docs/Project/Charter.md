@@ -17,11 +17,11 @@
 
 ## Pessoas
 * Envolvidos no projeto:
-	* Microsoft:
+	* Desenvolvedores:
 		* Cristina Andrade
 		* Rafael Reis
 		* Rodrigo Araujo
-	* Client:
+	* Cliente:
 		* Fernando Ferreira
 
 	
@@ -43,13 +43,11 @@
 * Criamos scripts para envio de dados a AWS
 	* Utilizaremos python para construção e amostragem
 	* Utilização de serviços AWS
-
-
-//TODO (O modelo utilizado foi …)
+	* O medelo utilizado foi Prophet
 
 
 
-## Communication
+## Comunicação
 * As reuniões são realizadas semanalmente, e havendo necessidade nos reunimos mais de uma vez na semana.
 
 * Todos os participantes mantêm contato diretamente com o cliente Fernando, em reuniões realizadas às segundas-feiras e também durante a semana conforme necessidades.
