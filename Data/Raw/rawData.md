@@ -1,7 +1,7 @@
 ## Lista de conjuntos de dados brutos
 
 
-| Raw Dataset Name | Link to the Full Dataset   | Full Dataset Size (MB)  | Link to Report |
+| Nome do CSV | Link para o CSV completo   | Tamanho do CSV (MB)  | Link para relatório |
 | ---:| ---: | ---: | ---: |
 | city_temperature| [link](https://drive.google.com/drive/folders/1Am0Qv2j1MrKyjwroYFFOR5yQ2zl6607x?usp=sharing) | 141,000 | [Raw Dataset Report](https://drive.google.com/drive/folders/1Am0Qv2j1MrKyjwroYFFOR5yQ2zl6607x?usp=sharing)|
 
