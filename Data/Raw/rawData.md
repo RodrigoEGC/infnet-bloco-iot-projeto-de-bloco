@@ -5,7 +5,7 @@
 | ---:| ---: | ---: | ---: |
 | city_temperature| [link](https://drive.google.com/drive/folders/1Am0Qv2j1MrKyjwroYFFOR5yQ2zl6607x?usp=sharing) | 141,000 | [Raw Dataset Report](https://drive.google.com/drive/folders/1Am0Qv2j1MrKyjwroYFFOR5yQ2zl6607x?usp=sharing)|
 
-## CSV columns
+## Colunas CSV 
 
 | Region | Country | State | City | Month | Day | Year | AvgTemperature |
 | ---:| ---: | ---: | ---: | ---:| ---: | ---: | ---: |
