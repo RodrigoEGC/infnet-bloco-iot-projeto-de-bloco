@@ -1,10 +1,8 @@
-# Folder for hosting all documents for a Data Science Project
+# Documentção do projeto em ciência de dados
 
-Documents will contain information about the following 
+O documento possui informaçôes como: 
 
-1. System architecture
-2. Data dictionaries
-3. Reports related to data understanding, modeling
-4. Project management and planning docs
-5. Information obtained from a business owner or client about the project
-6. Docs and presentations prepared to share information about the project 
+1. Relatório de dados
+2. Dicionário de qualidade dos dados
+3. Documentos de gerenciamento e planejamento do projeto
+4. Documento e apresentação contendo informações sobre o projeto
