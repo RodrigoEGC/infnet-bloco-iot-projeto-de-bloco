@@ -1,6 +1,6 @@
 # Documentção do projeto em ciência de dados
 
-O documento possui informaçôes como: 
+O documento possui informações como: 
 
 1. Relatório de dados
 2. Dicionário de qualidade dos dados
