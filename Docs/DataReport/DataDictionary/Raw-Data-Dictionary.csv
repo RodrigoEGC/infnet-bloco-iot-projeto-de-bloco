@@ -1,6 +1,6 @@
-Column Index,Column Name,Type of Variable,"Values (range, levels, examples, etc)",Short Description,Joining Keys with others datasets? 
-1,City,object,,Utilizaremos apenas a cidade de São Paulo, 
-2,Month,int64,,Qual mês ocorreu a medição da temperatura, 
-3,Year,int64,,Ano que ocorreu a medição da temperatura,
-4,AvgTemperature,float64,,Média da temperatura em fahrenheit,
+Column Index,Short Description,
+1,City,object,Utilizaremos apenas a cidade de São Paulo 
+2,Month,int64,Qual mês ocorreu a medição da temperatura
+3,Year,int64,Ano que ocorreu a medição da temperatura
+4,AvgTemperature,float64,Média da temperatura em fahrenheit
 
