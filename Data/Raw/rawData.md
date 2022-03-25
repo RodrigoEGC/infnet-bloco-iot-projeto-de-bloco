@@ -32,7 +32,7 @@
 | North America	 | US | Additional Territories | San Juan Puerto Rico | 7 | 31 | 2013 | 83.6 |
 
 
-## Description 
+## Descrição do CSV 
 - O CSV possui mais de 100GB permitidos dentro do GitHub, sendo assim está inserido no Drive com o link acima
 
 - O CSV possui dados de cidades ao redor do mundo, começando sua coleta em 1995 até o ano de 2020
