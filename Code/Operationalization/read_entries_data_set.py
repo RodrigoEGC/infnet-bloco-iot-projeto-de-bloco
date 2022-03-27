@@ -4,13 +4,13 @@ from awsiot import mqtt_connection_builder
 import re
 import time as t
 import json
-a1vjlljcvzaa14-ats.iot.us-east-1.amazonaws.com
+
 # TODO: remove para .env
 ENDPOINT='a1vjlljcvzaa14-ats.iot.us-east-1.amazonaws.com'
 CLIENT_ID='computer'
-PATTH_CERTIFICATE='/app/Code/Operationalization/certificates/computer.cert.pem'
-PATH_PRIVATE_KEY='/app/Code/Operationalization/certificates/computer.private.key'
-PATH_TO_AMAZON_ROOT_CA_KEY='/app/Code/Operationalization/certificates/root-CA.crt'
+PATTH_CERTIFICATE='Code/Operationalization/certificates/computer.cert.pem'
+PATH_PRIVATE_KEY='Code/Operationalization/certificates/computer.private.key'
+PATH_TO_AMAZON_ROOT_CA_KEY='Code/Operationalization/certificates/root-CA.crt'
 TOPIC='computer/temperature'
 
 def connect_aws_iot_core():
@@ -25,7 +25,7 @@ def connect_aws_iot_core():
         client_bootstrap=client_bootstrap,
         client_id=CLIENT_ID,
         clean_session=False,
-        keep_alive_secs=10
+        keep_alive_secs=6
 
     )
     connection_future = mqtt_connection.connect()
@@ -35,7 +35,7 @@ def connect_aws_iot_core():
 
 
 def read_last_entries(current_line=0):
-    with open('./Data/Raw/SP.csv', 'r') as entries:
+    with open('./Data/Processed/SP.csv', 'r') as entries:
         entries.seek(current_line)
         for line in entries:
             yield line
