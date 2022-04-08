@@ -34,8 +34,10 @@
 * Realizamos a limpeza destes dados eliminando valores nulos
 * convertemos os valores de farenheit para celsius.
 * Criamos scripts para enviar este novo CSV a AWS.
+* Criamos modelos baseados em ARIMA e Facebook Prophet
+* 
 
-//TODO (continua ao longo do projeto)
+
 
 ## Arquitetura
 
