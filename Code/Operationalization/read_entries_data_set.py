@@ -40,19 +40,22 @@ def read_last_entries(current_line=0):
         for line in entries:
             yield line
 
-
-def filter_weather(line, pattern='TEMP'):
-    if re.search(pattern, line):
-        return line
-    return None
-
-
 if __name__ == '__main__':
     read_from_line = 0
     mqtt_connection, connect = connect_aws_iot_core()
     for index, line in enumerate(read_last_entries(current_line=read_from_line)):
-        content = filter_weather(line)
-        message = {'Temperature': line}
+        words = re.split(',|\n', line)
+        message = {
+            'Index': words[0],
+            'Region': words[1],
+            'Country': words[2],
+            'City': words[3],
+            'Month': words[4],
+            'Day': words[5],
+            'Year': words[6],
+            'Celsius': words[7],
+            'Date': words[8] 
+        }
         print('Sending message: {0}'.format(message))
         mqtt_connection.publish(topic=TOPIC,
                                 payload=json.dumps(message),
