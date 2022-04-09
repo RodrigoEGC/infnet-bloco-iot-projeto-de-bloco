@@ -10,5 +10,5 @@
 
 * Geramos as métricas
 
-* Realizamosaprediçâo em um estado especifico
+* Realizamos a predição em um estado especifico para analizar o comportamento
 
