@@ -1,6 +1,6 @@
 Aqui armazenamos o nosso conjunto de dados, nele obtemos informaçoes como:
 
-1. Uma lista de conjunto de recursos como o link para o CSV e as cinco primeiras linhas.
+1. Documento contendo descrição do processo de recebimento de dados da AWS.
 2. O arquivo já com os dados tratados e processados
 3. Uma lista do conjunto de dados bruto
 
