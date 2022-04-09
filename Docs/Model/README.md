@@ -1,6 +1,7 @@
 # Modelagem
 
 * Diagrama de obtençãodos dados
+
 ![diagrama_de_obtenção_de_dados](https://user-images.githubusercontent.com/48866446/162573307-5c2e2eda-bb92-4c8d-a979-6e703bb7d465.png)
 
 
