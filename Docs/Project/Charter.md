@@ -4,7 +4,7 @@
 
 * O cliente Fernando Ferreira se encontra no ramo de meteorologia.
 
-* Nosso cliente solicita atualizaçoes sobre a predição do clima e recebe alertas quando houver previsão de eventos climaticos relevantes, como tempestades ou elevação brusca da temperatura.
+* Nosso cliente solicita atualizaçoes sobre a predição do clima e recebe alertas quando houver previsão de eventos climaticos relevantes, como tempestades.
 
 ## Ecopo
 *  Descrever os conceito de big data, análise de dados e machine learning
@@ -30,12 +30,12 @@
 
 
 ## Plano
-* A partir do dataset, escolhemos uma determinada cidade para análise.
+* A partir do dataset, escolhemos um determinado estado para análise.
 * Realizamos a limpeza destes dados eliminando valores nulos
 * convertemos os valores de farenheit para celsius.
-* Criamos scripts para enviar este novo CSV a AWS.
+* Criamos scripts para enviar este novo dataset a AWS.
 * Criamos modelos baseados em ARIMA e Facebook Prophet
-* Criamos atuadores na AWS, para criamos o Device Shadow
+* Criamos atuadores na AWS, para criamos o Device Shadow e gerar o alerta.
 * Geramos o diagrama de fluxo de dados e obtenção de dados.
 
 
