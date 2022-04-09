@@ -10,5 +10,5 @@
 
 * Geramos as métricas
 
-*Realizamosaprediçâo em um estado especifico
+* Realizamosaprediçâo em um estado especifico
 
