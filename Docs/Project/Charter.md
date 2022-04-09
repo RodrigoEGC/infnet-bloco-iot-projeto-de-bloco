@@ -46,7 +46,7 @@
 * Criamos scripts para envio de dados a AWS
 	* Utilizaremos python para construção e amostragem
 	* Utilização de serviços AWS
-	* O medelo utilizado foi Prophet e ARIMA
+	* O modelo utilizado foi Prophet e ARIMA
 	
 
 
