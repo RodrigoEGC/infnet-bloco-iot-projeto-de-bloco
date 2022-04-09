@@ -35,7 +35,8 @@
 * convertemos os valores de farenheit para celsius.
 * Criamos scripts para enviar este novo CSV a AWS.
 * Criamos modelos baseados em ARIMA e Facebook Prophet
-* 
+* Criamos atuadores na AWS, para criamos o Device Shadow
+* Geramos o diagrama de fluxo de dados e obtenção de dados.
 
 
 
@@ -45,9 +46,8 @@
 * Criamos scripts para envio de dados a AWS
 	* Utilizaremos python para construção e amostragem
 	* Utilização de serviços AWS
-	* O medelo utilizado foi Prophet
-	* //TODO
-
+	* O medelo utilizado foi Prophet e ARIMA
+	
 
 
 ## Comunicação
