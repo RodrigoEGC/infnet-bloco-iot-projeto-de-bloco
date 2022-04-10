@@ -1,0 +1,6 @@
+Indice da Coluna,Nome da Coluna,Tipo de variavel,Descrição
+1,City,object,Utilizaremos apenas a cidade de São Paulo 
+2,Month,int64,Qual mês ocorreu a medição da temperatura
+3,Year,int64,Ano que ocorreu a medição da temperatura
+4,AvgTemperature,float64,Média da temperatura em fahrenheit
+

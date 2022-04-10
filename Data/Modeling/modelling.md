@@ -1,0 +1,2 @@
+Através do Code/operationalization, utilizando o docker enviamos todo nosso dado obtido a partir de sensores a aws e então através do data pipeline podemos definir todo processo de como criaremos nosso pipeline gerando filtro e funções que nos auxilia na filtragem de dados ou processamento das informações, para assim  configurarmos o canal que subscreve as mensagens que são enviadas ao IOTcore e então no datastore recebemos estas informações processadas.
+
