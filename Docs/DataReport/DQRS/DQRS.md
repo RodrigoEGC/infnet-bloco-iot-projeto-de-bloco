@@ -1,6 +1,6 @@
 ### Relatório de qualidade de dados
 
-* O CSV estava grande e com isso ficava pesado, para resolver o problema utilizamos a lib ‘DASKDATAFRAME’ que nos possibilita escolha de qual será o volume de dados carregados
+* O CSV havia um grande volume de dados oque tornava o arquivo grande e pesado para ser processado, para resolver o problema utilizamos a lib ‘DASKDATAFRAME’ que nos possibilita escolha de qual será o volume de dados carregados
 
 * Tratamos valores nulos dos dados
 
