@@ -34,8 +34,9 @@
 * Realizamos a limpeza destes dados eliminando valores nulos
 * convertemos os valores de farenheit para celsius.
 * Criamos scripts para enviar este novo dataset a AWS.
-* Criamos modelos baseados em ARIMA e Facebook Prophet
+* Criamos modelos baseados no Facebook Prophet
 * Criamos atuadores na AWS, para criamos o Device Shadow e gerar o alerta.
+* Definimos as regras para tempestade como: Temperatura a 27ºc,alta umidade, e muita massa de ar.
 * Geramos o diagrama de fluxo de dados e obtenção de dados.
 
 
