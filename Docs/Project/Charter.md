@@ -40,6 +40,7 @@
 
 
 
+
 ## Arquitetura
 
   * Utilizaremos dados do CSV  (https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities)
@@ -47,6 +48,7 @@
 	* Utilizaremos python para construção e amostragem
 	* Utilização de serviços AWS
 	* O modelo utilizado foi Prophet e ARIMA
+	* Slide de apresentação (https://docs.google.com/presentation/d/1JG4M45o-ZjaE59MHPJ1GD3FALrj1O4zoTZRnygbDtjo/edit?usp=sharing)
 	
 
 
