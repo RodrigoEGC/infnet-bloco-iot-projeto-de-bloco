@@ -9,5 +9,5 @@
 * Realizamos a predição em um estado especifico para analizar o comportamento
 
 * Definimos a regra para tempestade como : 
-Temperatura a 27ºc,alta umidade, e muita massa de ar.
+Temperatura a 27ºc, alta umidade, e muita massa de ar.
 
