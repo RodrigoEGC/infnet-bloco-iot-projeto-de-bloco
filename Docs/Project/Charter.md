@@ -49,6 +49,7 @@
 	* Utilização de serviços AWS
 	* O modelo utilizado foi o facebook Prophet 
 	* Realizamos a predição no estado do Rio grande do sul
+	* Slide de apresentação (https://docs.google.com/presentation/d/1_KBY0ck5ujIm_mBMjXHBhCI6gMMTFub6LBv6xW_-0tQ/edit?usp=sharing)
 	
 
 
