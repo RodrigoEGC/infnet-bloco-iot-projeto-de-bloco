@@ -44,6 +44,7 @@
 ## Arquitetura
 
   * Utilizaremos dados do CSV  (https://www.kaggle.com/datasets/saraivaufc/automatic-weather-stations-brazil)
+  * Utilizamos a lib ‘DASKDATAFRAME’ para redução dos dados a ser processados
 * Criamos scripts para envio de dados a AWS
 	* Utilizaremos python para construção e amostragem
 	* Utilização de serviços AWS
