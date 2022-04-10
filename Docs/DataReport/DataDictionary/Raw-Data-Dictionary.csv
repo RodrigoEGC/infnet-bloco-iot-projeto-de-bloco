@@ -1,6 +1,22 @@
 Indice da Coluna,Nome da Coluna,Tipo de variavel,Descrição
-1,City,object,Utilizaremos apenas a cidade de São Paulo 
-2,Month,int64,Qual mês ocorreu a medição da temperatura
-3,Year,int64,Ano que ocorreu a medição da temperatura
-4,AvgTemperature,float64,Média da temperatura em fahrenheit
+1,ESTACAO	,object,Utilizaremos apenas a cidade de São Paulo 
+2,DATA (YYYY-MM-DD,int64,Qual mês ocorreu a medição da temperatura
+3,HORA (UTC)	,int64,Ano que ocorreu a medição da temperatura
+4,PRECIPITACAO TOTAL HORARIO (mm)	,float64,Média da temperatura em fahrenheit
+5,PRESSAO ATMOSFERICA AO NIVEL DA ESTACAO, HORARIA (mB)	,,
+6,PRESSAO ATMOSFERICA MAX.NA HORA ANT. (AUT) (mB)	,,
+7,PRESSAO ATMOSFERICA MIN. NA HORA ANT. (AUT) (mB)	,,
+8,RADIACAO GLOBAL (W/m2)	,,
+9,TEMPERATURA DO AR - BULBO SECO, HORARIA (C)	,,
+10,TEMPERATURA DO PONTO DE ORVALHO (C)	,,
+11,TEMPERATURA MAXIMA NA HORA ANT. (AUT) (C)	,,
+12,TEMPERATURA MINIMA NA HORA ANT. (AUT) (C)	,,
+13,TEMPERATURA ORVALHO MAX. NA HORA ANT. (AUT) (C)	,,
+14,TEMPERATURA ORVALHO MIN. NA HORA ANT. (AUT) (C)	,,
+15,UMIDADE REL. MAX. NA HORA ANT. (AUT) (%)	,,
+16,UMIDADE REL. MIN. NA HORA ANT. (AUT) (%)	,,
+17,UMIDADE RELATIVA DO AR, HORARIA (%),,
+18,VENTO, DIRECAO HORARIA (gr)	,,
+19,VENTO, RAJADA MAXIMA (m/s)	,,
+20,VENTO, VELOCIDADE HORARIA (m/s),,
 
