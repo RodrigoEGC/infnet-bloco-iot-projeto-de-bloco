@@ -43,11 +43,12 @@
 
 ## Arquitetura
 
-  * Utilizaremos dados do CSV  (https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities)
+  * Utilizaremos dados do CSV  (https://www.kaggle.com/datasets/saraivaufc/automatic-weather-stations-brazil)
 * Criamos scripts para envio de dados a AWS
 	* Utilizaremos python para construção e amostragem
 	* Utilização de serviços AWS
-	* O modelo utilizado foi Prophet e ARIMA
+	* O modelo utilizado foi o facebook Prophet 
+	* Realizamos a predição no estado do Rio grande do sul
 	
 
 
