@@ -35,7 +35,7 @@ def connect_aws_iot_core():
 
 
 def read_last_entries(current_line=0):
-    with open('./Data/Processed/SP.csv', 'r') as entries:
+    with open('./Data/Processed/station_A802.csv', 'r') as entries:
         entries.seek(current_line)
         for line in entries:
             yield line
@@ -47,14 +47,13 @@ if __name__ == '__main__':
         words = re.split(',|\n', line)
         message = {
             'Index': words[0],
-            'Region': words[1],
-            'Country': words[2],
-            'City': words[3],
-            'Month': words[4],
-            'Day': words[5],
-            'Year': words[6],
-            'Celsius': words[7],
-            'Date': words[8] 
+            'Estacao': words[1],
+            'Data': words[2],
+            'Pressao Atmosferica': words[3],
+            'Temperatura do Ar': words[7],
+            'Umidade Relativa do Ar': words[11],
+            'Vento Direcao': words[12],
+            'Vento Rajada Maxima': words[13]
         }
         print('Sending message: {0}'.format(message))
         mqtt_connection.publish(topic=TOPIC,

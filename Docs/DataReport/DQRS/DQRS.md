@@ -4,11 +4,10 @@
 
 * Tratamos valores nulos dos dados
 
-* Os dados de temperatura foram convertidos de fahrenheit para celsius
-
-* foi gerado um gráfico para observarmos se há outliers
-
 * Geramos as métricas
 
 * Realizamos a predição em um estado especifico para analizar o comportamento
+
+* Definimos a regra para tempestade como : 
+Temperatura a 27ºc, alta umidade, e muita massa de ar.
 
