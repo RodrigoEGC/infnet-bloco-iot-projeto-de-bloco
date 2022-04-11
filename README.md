@@ -38,27 +38,14 @@ O Team Data Science Process (TDSP) é uma metodologia ágil e iterativa de ciên
 │      └── Model Reports     <- Start page.
 │
 ├── Code                <- Códigos para análise e teste.
-│   ├── DataPrep             <- Notebooks for generating and analysing features (1 per feature)
-│   ├── Model                <- Notebooks for EDA
+│   ├── DataPrep             <- Notebooks para EDA
+│   ├── Model                <- Notebooks para Modelo
 │   │   └── example1.ipynb   <- Example python notebook
 |   |   └── example2.ipynb   <- Example python notebook
 |   |   └── example3.ipynb   <- Example python notebook
-│   ├── Operationalization   <- Notebooks for modelling
+│   ├── Operationalization   <- Scripts para conexão com a aws
 │
-├── scripts             <- Scripts
-│   ├── deploy               <- Scripts MLOps para implantação (WIP)
-│   │   └── score.py         <- Script de pontuação
-│   ├── train                <- Scripts MLOps para treinamento
-│   │   ├── submit-train.py  <- Script para enviar uma execução de treinamento ao Serviço da AWS.
-│   │   ├── submit-train-local.py <- Script para treinamento local usando o AWS ML
-│
-└── tests                    <- Casos de teste (nomeados após o módulo)
-    ├── test_notebook.py     <- Exemplo de teste que os notebooks Jupyter executam sem erros
-    ├── examplepackage       <- testes de pacote de exemplo
-        ├── examplemodule    <- testes de módulo de exemplo (1 arquivo por método testado)
-        ├── features         <- testes de recursos
-        ├── io               <- teste de io
-        └── pipeline         <- teste de pipeline
+
 ```
 
 
@@ -68,17 +55,19 @@ Configurar um ambiente virtual
 #### Setup
 ```
 cd infnet-bloco-iot-projeto-de-bloco
-python -m venv dst-env
+$ docker build . -t sensor_aws
+
+$docker run -it sensor_aws /bin/bash
+
 ```
 
-#### Activate environment
-Max / Linux
-```
-source dst-env/bin/activate
-```
+#### Script envio de dados
 
-Windows
 ```
-dst-env\Scripts\activate
+python Code/Operationalization/read_entries_data_set.py
 ```
+#### Script device shadow
 
+```
+python Code/Operationalization/shadow_connection.py
+```
